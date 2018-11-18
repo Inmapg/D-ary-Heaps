@@ -106,7 +106,7 @@ private:
 		int child; // left one
 		bool end = false;
 		while (getIndexK(place, 1) <= size() && !end) {
-			child = mostPriorityPosition(place);
+			child = nextChildPosition(place);
 			// change child
 			if (child < size() && before(array[child + 1], array[child]))
 				++child;
@@ -120,7 +120,7 @@ private:
 		array[place] = elem;
 	}
 
-	int mostPriorityPosition(int i) {
+	int nextChildPosition(int i) {
 		int result = getIndexK(i, 1);
 		int k = 2;
 		int pos = getIndexK(i, k);
