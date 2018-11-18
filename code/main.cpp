@@ -9,7 +9,7 @@ int main() {
 	daryHeap<int> testHeap(numChildren);
 	bool exit = false;
 	do {
-		std::cout << "\n______________________________________________\nOperations:\n";
+		std::cout << "\n__________________________________________________\nOperations:\n";
 		std::cout << "\t1) Insert element in the heap\n";
 		std::cout << "\t2) Delete element from the heap\n";
 		std::cout << "\t3) Check empty heap\n";
