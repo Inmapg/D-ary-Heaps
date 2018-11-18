@@ -91,7 +91,7 @@ int main() {
 				break;
 			}
 		}
-	} while (exit == false);
+	} while (!exit);
 
 
 	return 0;
