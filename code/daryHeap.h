@@ -35,7 +35,7 @@ public:
 	// Inserts the element x (which includes its priority).
 	void push(T const& x) {
 		array.push_back(x);
-		shiftUp(array.size() - 1);
+		shiftUp(size() - 1);
 	}
 
 	// Returns the heap's size
@@ -58,7 +58,7 @@ public:
 	// Returns and removes from the heap the element at the index 'ind' if the heap is not empty
 	T deleteAt(int ind) {
 		if (empty())
-			throw std::domain_error("You can't remove the first element due to the heap is empty.");
+			throw std::domain_error("You can't remove any element due to the heap is empty.");
 		else if (ind >= size()) {
 			throw std::domain_error("Position out of range");
 		}
@@ -106,7 +106,7 @@ private:
 		int child; // left one
 		bool end = false;
 		while (getIndexK(place, 1) <= size() && !end) {
-			child = minChild(place);
+			child = mostPriorityPosition(place);
 			// change child
 			if (child < size() && before(array[child + 1], array[child]))
 				++child;
@@ -120,17 +120,17 @@ private:
 		array[place] = elem;
 	}
 
-	int minChild(int i) {
-		int minimum = getIndexK(i, 1);
+	int mostPriorityPosition(int i) {
+		int result = getIndexK(i, 1);
 		int k = 2;
 		int pos = getIndexK(i, k);
-		while (k <= numChildren && pos < array.size()) {
-			if (array[pos] < array[minimum]) {
-				minimum = pos;
+		while (k <= numChildren && pos < size()) {
+			if (before(array[pos], array[result])) {
+				result = pos;
 			}
 			pos = getIndexK(i, k++);
 		}
-		return minimum;
+		return result;
 	}
 
 	// Returns the k th child
