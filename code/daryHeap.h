@@ -26,6 +26,14 @@ class daryHeap {
 public:
 	daryHeap(int numCh = 1, Comparator c = Comparator()) : array(0), numChildren(numCh), before(c) {}
 
+	daryHeap(std::vector<T> const& v_ini, int numCh = 1, Comparator c = Comparator()) : numChildren(numCh),
+		array(0), before(c) {
+		for (auto i = 0; i < v_ini.size(); ++i) {
+			array.push_back(v_ini[i]);
+			shiftUp(size() - 1);
+		}
+	}
+
 	daryHeap(daryHeap<T, Comparator> const&) = default;
 
 	daryHeap<T, Comparator> & operator=(daryHeap<T, Comparator> const&) = default;
@@ -106,10 +114,7 @@ private:
 		int child; // left one
 		bool end = false;
 		while (getIndexK(place, 1) <= size() && !end) {
-			child = nextChildPosition(place);
-			// change child
-			if (child < size() && before(array[child + 1], array[child]))
-				++child;
+			child = mostPriorityPosition(place);
 			// shift up the child if it goes before the element that is shifting down
 			if (before(array[child], elem)) {
 				array[place] = array[child];
@@ -120,7 +125,7 @@ private:
 		array[place] = elem;
 	}
 
-	int nextChildPosition(int i) {
+	int mostPriorityPosition(int i) {
 		int result = getIndexK(i, 1);
 		int k = 2;
 		int pos = getIndexK(i, k);
