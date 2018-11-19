@@ -29,8 +29,7 @@ public:
 	daryHeap(std::vector<T> const& v_ini, int numCh = 1, Comparator c = Comparator()) : numChildren(numCh),
 		array(0), before(c) {
 		for (auto i = 0; i < v_ini.size(); ++i) {
-			array.push_back(v_ini[i]);
-			shiftUp(size() - 1);
+			push(v_ini[i]);
 		}
 	}
 
@@ -92,6 +91,14 @@ public:
 	// Clears the heap (just for debugging)
 	void clear() {
 		array.clear();
+	}
+	
+	// Updates the priorities of the elements
+	void updatePriorities(){
+		int ind = size()/numChildren;
+		while(ind >= 0){
+			shiftDown(ind--);
+		}
 	}
 
 private:
