@@ -1,8 +1,8 @@
 /*
-	d-ary heap implementation based on binary heaps.
-
-	GitHub: @Inmapg
-*/
+ *	d-ary heap implementation.
+ *
+ *	Author's GitHub: @Inmapg
+ */
 #ifndef daryHeap_h
 #define daryHeap_h
 
@@ -92,11 +92,11 @@ public:
 	void clear() {
 		array.clear();
 	}
-	
-	// Updates the priorities of the elements
-	void updatePriorities(){
-		int ind = size()/numChildren;
-		while(ind >= 0){
+
+	// Updates the priorities of the heap's elements
+	void updatePriorities() {
+		int ind = size() / numChildren;
+		while (ind >= 0) {
 			shiftDown(ind--);
 		}
 	}
@@ -120,7 +120,7 @@ private:
 		int place = i;
 		int child; // left one
 		bool end = false;
-		while (getIndexK(place, 1) <= size() && !end) {
+		while (daryChild(place, 1) <= size() && !end) {
 			child = mostPriorityPosition(place);
 			// shift up the child if it goes before the element that is shifting down
 			if (before(array[child], elem)) {
@@ -132,24 +132,26 @@ private:
 		array[place] = elem;
 	}
 
+	/// Returns the most priority position given an index
 	int mostPriorityPosition(int i) {
-		int result = getIndexK(i, 1);
-		int k = 2;
-		int pos = getIndexK(i, k);
-		while (k <= numChildren && pos < size()) {
+		int result = daryChild(i, 1);
+		int d = 2;
+		int pos = daryChild(i, d);
+		while (d <= numChildren && pos < size()) {
 			if (before(array[pos], array[result])) {
 				result = pos;
 			}
-			pos = getIndexK(i, k++);
+			pos = daryChild(i, d++);
 		}
 		return result;
 	}
 
-	// Returns the k th child
-	int getIndexK(int child, int k) {
-		return numChildren * child + k;
+	// Returns the d th child
+	int daryChild(int child, int d) {
+		return numChildren * child + d;
 	}
 
+	// Returns the parent of the given child
 	int parent(int child) {
 		return (child - 1) / numChildren;
 	}
