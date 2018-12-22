@@ -1,0 +1,19 @@
+\section{Colas}
+El tipo \textit{cola} es una estructura de datos lineal cuya característica principal es que el acceso a los elementos se realiza en el mismo orden que fueron almacenados, siguiendo el criterio \textit{FIFO}\footnote{El primero en entrar es el primero en salir}. Este criterio es muy utilizado en el diseño de algoritmos para diversas aplicaciones, sobre todo en simulación, debido a la ubicuidad de las colas en toda clase de sistemas.\newline 
+
+El comportamiento de las colas es totalmente independiente del tipo de los datos almacenados en ellas, por lo que se trata de un tipo de datos genérico.
+
+Las operaciones con las que cuenta esta estructura son crear una cola vacía, añadir un elemento al final de la cola, consultar o eliminar el primer elemento (si existe), y determinar si la cola es vacía.
+
+\subsection{Colas con prioridad}
+Como acabamos de ver, en las colas ordinarias se atiende por riguroso orden de llegada. Sin embargo, en la vida cotidiana también existe otra clase de colas donde uno tiene la impresión de que siempre son atendidos los demás aunque hayan llegado después. Se trata de colas como las de los servicios de urgencias, en los cuales se atiende según el nivel de urgencia y no según el orden de llegada.\newline
+
+La estructura de datos lineal que representa este concepto se conoce como \textit{cola de prioridad}, cuyas principales operaciones son añadir un elemento, saber quién es el primero y atender al primero, es decir, eliminarlo de la cola.\newline
+
+Cada elemento tiene una prioridad que determina quién va a ser el primero en ser atendido; para poder hacer esto, hace falta tener un \textit{orden total} sobre las prioridades. El primero en ser atendido puede ser el elemento con menor prioridad (por ejemplo, el cliente que necesita menos tiempo para su atención) o el elemento con mayor prioridad (por ejemplo, el cliente que esté dispuesto a pagar más por su servicio) según se trate de \textit{colas con prioridad de mínimos} o \textit{de máximos}, respectivamente.\newline
+
+Luego lo que diferencia una cola de prioridad de una cola FIFO es que el primer elemento en salir es el de mayor prioridad. Frecuentemente, para facilitar la presentación de las propiedades de la estructura, tomaremos como prioridad el valor del elemento almacenado.\newline
+
+Las colas de prioridad pueden implementarse de diferentes maneras. Si se utilizan listas (sin ordenar), la operación de añadir puede hacerse en tiempo constante, pero consultar y eliminar el mínimo tienen coste lineal por la búsqueda. Si la lista está ordenada de forma creciente, estas dos operaciones tienen coste constante, pues el mínimo aparece al principio de la lista, pero añadir un elemento pasa a tener un coste lineal, debido al coste de localizar el punto de inserción.\newline
+
+La implementación eficiente de una cola de prioridad requiere un tipo de datos denominado \textit{montículo}, que es una particularización de los árboles binarios, no obstante lo cual, la visión que un usuario tiene de un montículo es la de una cola de prioridad; es decir, la de un TAD\footnote{Tipo Abstracto de Datos.} que permite añadir elementos desordenadamente y recuperarlos con un orden específico.

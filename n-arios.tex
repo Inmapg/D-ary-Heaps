@@ -1,0 +1,47 @@
+\documentclass[a4paper, 12pt, twoside, titlepage, openright, onecolumn, final]{book}
+
+\usepackage{style}
+
+\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+\definecolor{hyperlinkColour}{rgb}{0,0.48,0.78}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\textsc{\Huge \textbf{Montículos \hbox{\boldmath $n$\unboldmath}--arios}}\\[4em]
+
+			\begin{figure}[h]
+				\begin{center}
+					\includegraphics[scale=0.65]{img/ucm}
+				\end{center}
+			\end{figure}
+			\vspace{4em}
+			
+			\textsc{\large Inmaculada Pérez Garbín}\\[1em]
+			
+			\textsc{\large Doble Grado en Ingeniería Informática y Matemáticas}\\[1em]
+			
+			\textsc{\large Curso $2018$--$2019$}
+			
+		\end{center}
+		
+		\vspace*{\fill}
+		
+	\end{titlepage}
+	\frontmatter
+	\tableofcontents
+	\include{./tex/Prefacio}
+	\addcontentsline{toc}{chapter}{Prefacio}
+	
+	\mainmatter
+	\include{./tex/FundamentosTeoricos}
+	\include{./tex/Implementacion}
+	\include{./tex/Comparacion}
+	\backmatter
+	
+	\cleardoublepage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Bibliografía}
+	\include{./tex/Bibliografia}
+
+\end{document}

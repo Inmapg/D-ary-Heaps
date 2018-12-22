@@ -1,0 +1,78 @@
+\chapter{Implementación de los montículos $\boldsymbol{n}$--arios}
+Para comprender el código adjunto a este documento, es necesario saber que el elemento con menor prioridad en un montículo de mínimos (o el de mayor prioridad, de tratarse de un montículo de máximos) \textbf{siempre} se hallará en la posición $0$ del vector.
+\newline
+
+El código es genérico; es decir, es válido para los dos tipos de montículos definidos anteriormente.
+\newline
+
+A continuación, se procederá a realizar una descripción de las funciones menos triviales del código implementado.
+
+\section{Creación del montículo}
+En este caso, existen tres formas diferentes de construirlo: especificando el número de hijos por nodo que se desean tener (y un \textit{objeto comparador} si se desea), pasando como parámetro otro montículo existente, o, también, con un vector. 
+
+\section{Inserción de un elemento}
+El elemento se añade al final del vector y se \textit{flota}\footnote{Estudiaremos esta función en la siguiente página.} en el árbol hasta que las propiedades de este tipo de montículo se satisfagan.
+\newpage
+\section{Borrado de un elemento}
+Se intercambia dicho elemento con el último del vector (llamémoslo $x$) y se hace decrecer el tamaño de éste. Entonces, mientras que $x$ no satisfaga las restricciones del montículo, se cambia con uno de sus hijos (el que tenga menor prioridad, si el montículo es de mínimos; el que tenga mayor prioridad, si es de máximos), hundiéndolo en el árbol y, después, en el vector hasta que se cumplan las propiedades del TAD. El mismo procedimiento de hundir se aplica al incrementar la prioridad de un elemento en un montículo de mínimos o al disminuirla de uno de máximos.
+
+\begin{algorithm}
+	\caption{Borrar un elemento del montículo dada su posición y devolver dicho elemento.}
+	\begin{algorithmic}
+		\Function{Borrar}{$ind : ent$}
+		\If{$vacio() \quad\lor\quad ind \geq tam()$}
+		\State\Return $error;$
+		\Else
+		\State $elem \gets vector[ind];$
+		\State $vector[ind] \gets vector[tam() - 1];$
+		\State $vector.eliminaUltimoElemento();$
+		\If{$\neg vacio() \quad\land\quad ind < tam()$}
+		\State $hundir(ind);$
+		\EndIf
+		\EndIf
+		\State\Return $elem;$
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+\section{Hundir un elemento}
+Corresponde a bajar de nivel el elemento hasta situarlo en el lugar correspondiente de tal forma que se satisfagan las propiedades de este tipo de montículo.
+
+\begin{algorithm}
+	\caption{Hundir un elemento del montículo dada su posición.}
+	\begin{algorithmic}
+		\Procedure{Hundir}{$i : ent$}
+		\State $lugar \gets i;$
+		\State $elem \gets vector[i];$
+		\State $salir \gets \textbf{falso};$
+		\While {$\neg salir \quad\land\quad nesimoHijo(lugar, 1) \leq tam()$}
+		\State $hijo \gets posPrioritaria(lugar);$
+		\If{$antes(vector[padre(lugar)], elem)$}\Comment{Objeto comparador}
+		\State $vector[lugar] \gets vector[hijo];$
+		\State $lugar \gets hijo;$
+		\Else
+		\State $salir \gets \textbf{cierto};$
+		\EndIf
+		\EndWhile
+		\State $vector[lugar] \gets elem;$
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+\newpage
+\section{Flotar un elemento}
+En esta operación el elemento en cuestión va a subir de nivel del árbol hasta colocarse en la posición que le corresponda para cumplir las restricciones de la cola.
+
+\begin{algorithm}
+	\caption{Flotar un elemento del montículo dada su posición.}
+	\begin{algorithmic}
+		\Procedure{Flotar}{$i : ent$}
+		\State $lugar \gets i;$
+		\State $elem \gets vector[i];$
+		\While {$lugar > 0  \quad\land\quad antes(elem, vector[padre(lugar)])$}
+		\State $vector[i] \gets vector[padre(lugar)];$
+		\State $lugar \gets padre(lugar);$
+		\EndWhile
+		\State $vector[lugar] \gets elem;$
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}

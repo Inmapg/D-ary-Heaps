@@ -1,0 +1,16 @@
+\chapter{Comparación de los montículos $\boldsymbol{n}$--arios}
+
+Esta estructura de datos permite cambiar la prioridad de las operaciones a realizar de una forma más rápida que los montículos binarios, con el inconveniente del aumento del coste de las operaciones de borrado de elementos.
+\newline
+
+La inserción de un elemento en un montículo $n$--ario tiene el coste de la operación \textit{flotar}, ya que lo único que añade es una inserción al final del vector, lo cual tiene coste $\Omicron(1)$. Así, tendrá coste $\Omicron(\log_n(k))$\footnote{Llamaremos $k$ al número de elementos}. Sin embargo, para un $n$ grande, la operación de \textit{borrar mínimo/máximo} es más costosa, pues aunque el árbol tenga menos profundidad, se deberá encontrar el mínimo de los $n$ hijos, lo que conlleva $n - 1$ comparaciones usando el algoritmo estándar. Esto nos conduce a tener un coste del orden $\Omicron(n\cdot\log_n(k))$. Si $n$ es constante, tanto la inserción como el borrado serán  $\Omicron(\log k)$.\newline
+
+Además, tiene un mejor comportamiento con la memoria caché, permitiendo ejecutar los programas, en la práctica, de una manera más rápida aunque, teóricamente, estos montículos tengan un tiempo de ejecución en el peor de los casos mayor en operaciones como la anterior mente mencionada.
+\newline
+
+Como los montículos binarios, los $n$--arios son un tipo de estructura de gran utilidad desde el punto de vista del ahorro de memoria, pues únicamente ocupan el almacenamiento de datos del vector.
+\newline
+
+Sería conveniente usar este tipo de estructura cuando se requiera hacer más inserciones que borrados o extracciones del mínimo, si el montículo es de mínimos, o del máximo, si el montículo es de máximos. Esto se debe a que la inserción tiene un coste menor que las otras operaciones mencionadas.
+\newline 
+

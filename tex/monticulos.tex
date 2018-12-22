@@ -1,0 +1,106 @@
+\section{Montículos}
+Es fácil convencerse de que su modelo inicial corresponde a la idea matemática de \textit{multiconjunto}\footnote{Conjuntos en los que pueden existir elementos repetidos}, con la propiedad adicional de que existe una relación de orden que permite preguntar por el mínimo o el máximo de ellos, dependiendo del tipo de comparación que se haya establecido previamente.\newline
+
+\begin{defi}[Montículo]\label{def monticulo}
+	Un \textit{montículo} es un árbol binario que cumple dos propiedades adicionales: 
+	\begin{itemize}	
+		\item Son árboles casi completos.
+		\item Orden especial.
+	\end{itemize}
+\end{defi}
+
+Cuando aseguramos que cumplen con un orden especial, hacemos referencia a los siguientes tipos de montículos.
+
+\begin{defi}[Montículo de mínimos]\label{def monticulo min}
+	Un \textit{montículo de mínimos} es un árbol binario semicompleto donde el elemento situado en la raíz es menor que todos los elementos en el hijo izquierdo y en el derecho, y ambos hijos son, a su vez, montículos de mínimos.
+\end{defi}
+
+\begin{obs}
+	Equivalentemente, el elemento allmacenado en cada nodo es menor que los elementos en las raíces de sus hijos y, por tanto, que todos sus descendientes; así, la raíz contiene el mínimo de todos los elementos en el árbol. 
+\end{obs}
+
+\begin{defi}[Montículo de máximos]\label{def monticulo max}
+	Un \textit{montículo de máximos} se define de manera completamente análoga, exigiendo que cada nodo sea mayor que sus hijos, de forma que la raíz del árbol contiene el máximo de todos los elementos.
+\end{defi}
+
+Por supuesto, según sea de mínimos o máximos, el montículo es apropiado para implementar una cola con prioridad de mínimos o de máximos, respectivamente.\newline
+
+Visto y entendido todo lo anterior, estudiemos una serie de propiedades interesantes sobre los árboles binarios.\newline
+\begin{prop}$ $\newline
+	Un árbol binario completo de altura $h$ cumple que
+	\begin{enumerate}[]
+		\item Tiene $2^{i - 1}$ nodos en el nivel $i$, con $1 \leq i \leq h$.
+		\item Tiene $2^{h - 1}$, siendo $h \geq 1$. 
+		\item Tiene $2^h - 1$ nodos, siendo $h \geq 0$.
+	\end{enumerate}
+\end{prop}
+
+\begin{proof}$ $
+	\begin{enumerate}[]
+		\item Veámoslo por inducción sobre el número de nivel $i$.
+		
+		Cuando $i = 1$, en el primer nivel solamente hay un nodo (la raíz) y, por tanto, se tiene que $2^{i - 1} = 2^{1 - 1} = 2^0 = 1$.
+		
+		Supuesto cierto el resultado para $i < h$, como cada nodo en el nivel $i$--ésimo tiene exactamente dos hijos no vacíos, el número de nodos en el nivel $i + 1$ será $2\cdot 2^{i - 1} = 2^i = 2^{(i + 1)  - 1}$  .
+		\item Es trivial, pues las hojas son los nodos en el último nivel $h$.
+		\item Si $h = 0$, el árbol es vacío y el número de nodos es igual a $0 = 2^0 - 1$.
+		
+		Si $h > 0$, el número total de nodos es $\displaystyle\sum_{i = 1}^{h}2^{i - 1} = \displaystyle\sum_{j = 0}^{h - 1}2^j = 2^h - 1$.
+	\end{enumerate}
+\end{proof}
+
+\begin{prop}$ $\newline
+	Un árbol binario semicompleto formado por $n$ nodos tiene altura $\lfloor \log n \rfloor + 1$.
+	
+\end{prop}
+
+\begin{proof}$ $
+	
+	Supongamos que tenemos un árbol binario semicompleto con $n$ nodos y altura $h$.
+	
+	En el caso en que faltan mas nodos en el último nivel, el árbol es un árbol binario completo de $h - 1$ niveles más un nodo de nivel $h$, por lo que hay en total $2^{h - 1} - 1 + 1 = 2^{h - 1}$ nodos.
+	
+	Resumiendo, tenemos con respecto a $n$ la siguiente desigualdad:
+	\begin{center}
+		$2^{h - 1} \leq n \leq 2^h - 1$
+	\end{center}
+	
+	Tomando logaritmos en base dos
+	
+	\begin{center}
+		$\log(2^{h - 1}) \leq \log n \leq \log(2^h - 1) < \log(2^h)$
+	\end{center}
+	
+	equivalentemente,
+	
+	\begin{center}
+		$h - 1 \leq \log n < h$
+	\end{center}
+	
+	es decir, $h - 1 = \lfloor \log n \rfloor $ y de aquí, despejando, sacamos $h = \lfloor \log n \rfloor + 1$ 
+\end{proof}
+
+\subsection{Montículos \hbox{\boldmath $n$\unboldmath}--arios}
+\begin{defi}[Montículo $n$--ario]
+	Un \textit{montículo $n$--ario}\footnote{Este tipo de estructura fue inventada en 1975 de la mano de \href{https://en.wikipedia.org/wiki/Donald_B._Johnson}{\textcolor{hyperlinkColour}{\textit{Donald B. Johnson}}}} es una estructura de datos que generaliza la de los montículos binarios con la diferencia de que, en ella, cada nodo tiene $n$ hijos en lugar de dos. Quitando esa diferencia, cumplen las mismas propiedades.
+\end{defi}
+
+Entonces, como hemos comentado antes, podemos utilizar este TAD para realizar una implementación eficiente de una cola con prioridad. Luego una cola de este tipo consta de un vector de $n$ elementos, cada uno de ellos con una prioridad asociada. Estos elementos se pueden ver como nodos en un árbol $n$--ario completo y se encuentran listados de forma que se \href{https://es.wikipedia.org/wiki/Busqueda_en_anchura}{\textcolor{hyperlinkColour}{\textit{recorra en anchura }}}(\textit{BFS}). El padre de un nodo en la $i$--ésima posición, $i \geq 0$, es el elemento colocado en la posición $\dfrac{i-1}{n}$ y sus hijos se encuentran en las posiciones $n\cdot i + 1$ hasta $n\cdot i + n$.\newline
+
+La altura de este tipo de estructura  es $\Theta(\log_nk)$, donde, haciendo un pequeño cambio en la notación, $k$ es el número de nodos del montículo. En efecto, 
+
+\begin{center}
+	{\centering
+		$1 + n + n^2 + \ldots + n^{h-1} \quad<\quad k \quad\leq\quad 1 + n + n^2 + \ldots + n^h$\par
+		$\dfrac{n^h -1}{n - 1} \quad<\quad k \quad\leq\quad \dfrac{n^{h+1} -1}{n - 1}$\par
+		$n^h \quad<\quad k\cdot(n - 1) + 1 \quad\leq\quad n^{h+1}$\par
+		$h \quad<\quad \log_n(k\cdot(n - 1) + 1) \quad\leq\quad h+1$\par
+	}
+\end{center}
+lo que resulta en $h = \lceil(\log_n(k\cdot(n - 1) + 1)) - 1\rceil \in \Theta(\log_nk)$.
+\newline
+
+Los posibles ámbitos de aplicación de este TAD son múltiples. Por ejemplo, cuando se opera con un grafo de $A$ aristas y $V$ vértices, tanto el algoritmo de Dijkstra como el de Prim utilizan un montículo de mínimos donde hay $V$ operaciones de borrado del mínimo y $A$ operaciones de disminuir la prioridad de los elementos. Usando un montículo $n$--ario con $n = \dfrac{A}{V}$, se podría optimizar el algoritmo para que su coste fuera $\Omicron(A\cdot\log_{A/V}(V))$, mejorando el ya conocido coste $\Omicron(A\cdot\log(V))$ de hacerlo con un montículo binario.
+\newline
+
+Otra opción sería utilizar los \href{https://es.wikipedia.org/wiki/Mont\%C3\%ADculo_de_Fibonacci}{\textcolor{hyperlinkColour}{\textit{montículos de Fibonacci}}} que otorga un mejor tiempo, $\Omicron((A + V)\cdot\log(V))$, aunque los montículos que ahora nos conciernen son casi tan rápidos como los de Fibonacci para los problemas mencionados.

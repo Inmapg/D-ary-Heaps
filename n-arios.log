@@ -1,0 +1,2222 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840) (preloaded format=pdflatex 2018.11.17)  22 DEC 2018 12:24
+entering extended mode
+**./n-arios.tex
+(n-arios.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+bk12.clo"
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (style.sty
+Package: style 
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/u
+rl.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/hyperref.sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/obe
+rdiek/hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/obe
+rdiek/hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ifx
+etex/ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/pd1enc.def"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count91
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00mik
+tex/hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count92
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen104
+\Fld@menulength=\count93
+\Field@Width=\dimen105
+\Fld@charsize=\dimen106
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/hpdftex.def"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 5.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/title
+sec/titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen107
+\ttl@minus=\dimen108
+\ttl@toksa=\toks15
+\titlewidth=\dimen109
+\titlewidthlast=\dimen110
+\titlewidthfirst=\dimen111
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks16
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geome
+try/geometry.cfg"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bab
+el/babel.sty"
+Package: babel 2018/11/13 3.27 The Babel package
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bab
+el/switch.def"
+File: switch.def 2018/11/13 3.27 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi
+/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel
+-spanish/spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bab
+el/babel.def"
+File: babel.def 2018/11/13 3.27 Babel common definitions
+\babel@savecnt=\count102
+\U@D=\dimen120
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bab
+el/txtbabel.def")
+\bbl@dirlevel=\count103
+)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+\l@spanish = a dialect from \language0
+\es@quottoks=\toks17
+\es@quotdepth=\count104
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolo
+r/xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics-cfg/color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics-def/pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+inputenc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float
+/float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count105
+\float@exts=\toks20
+\float@box=\box27
+\@float@everytoks=\toks21
+\@floatcapt=\box28
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/imake
+idx/imakeidx.sty"
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xkeyv
+al/xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xke
+yval/xkeyval.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xke
+yval/xkvutils.tex"
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+)
+\XKV@depth=\count106
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools
+/multicol.sty"
+Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box29
+\multicol@leftmargin=\dimen121
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen122
+\page@free=\dimen123
+\premulticols=\dimen124
+\postmulticols=\dimen125
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen126
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen127
+\multicolovershoot=\dimen128
+\multicolundershoot=\dimen129
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count115
+))
+\general@idxfile=\write3
+\openout3 = `general.idx'.
+
+
+Writing index file general.idx
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graph
+ics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen130
+\Gin@req@width=\dimen131
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
+gure/subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip51
+\c@subfigure=\count116
+\c@lofdepth=\count117
+\c@subtable=\count118
+\c@lotdepth=\count119
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/subfi
+gure/subfigure.cfg")
+\subfig@top=\skip52
+\subfig@bottom=\skip53
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsma
+th/amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsma
+th/amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsma
+th/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen134
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsma
+th/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen135
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsma
+th/amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count120
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count121
+\leftroot@=\count122
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count123
+\DOTSCASE@=\count124
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
+\dotsspace@=\muskip11
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
+\tag@help=\toks25
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
+\andhelp@=\toks26
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks27
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfo
+nts/amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfo
+nts/amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknap
+pen/mathrsfs.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup7
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/matht
+ools/mathtools.sty"
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools
+/calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count132
+\calc@Bcount=\count133
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count134
+\calc@Cskip=\skip59
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/matht
+ools/mhsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count135
+\l_MT_multwidth_dim=\dimen145
+\origjot=\skip60
+\l_MT_shortvdotswithinadjustabove_dim=\dimen146
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen147
+\l_MT_above_intertext_sep=\dimen148
+\l_MT_below_intertext_sep=\dimen149
+\l_MT_above_shortintertext_sep=\dimen150
+\l_MT_below_shortintertext_sep=\dimen151
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/marvo
+sym/marvosym.sty"
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancy
+box/fancybox.sty"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box57
+\shadowsize=\dimen152
+\@Sbox=\box58
+\do@VerbBox=\toks29
+\the@fancyput=\toks30
+\this@fancyput=\toks31
+\EndVerbatimTokens=\toks32
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xy.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xy.tex" Bootstrap'ing: catcodes, docmode,
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyrecat.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyidioms.tex")
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen153
+\Y@c=\dimen154
+\U@c=\dimen155
+\D@c=\dimen156
+\L@c=\dimen157
+\R@c=\dimen158
+\Edge@c=\toks33
+\X@p=\dimen159
+\Y@p=\dimen160
+\U@p=\dimen161
+\D@p=\dimen162
+\L@p=\dimen163
+\R@p=\dimen164
+\Edge@p=\toks34
+\X@origin=\dimen165
+\Y@origin=\dimen166
+\X@xbase=\dimen167
+\Y@xbase=\dimen168
+\X@ybase=\dimen169
+\Y@ybase=\dimen170
+\X@min=\dimen171
+\Y@min=\dimen172
+\X@max=\dimen173
+\Y@max=\dimen174
+\lastobjectbox@=\box59
+\zerodotbox@=\box60
+\almostz@=\dimen175
+ direction,
+\d@X=\dimen176
+\d@Y=\dimen177
+\K@=\count136
+\KK@=\count137
+\Direction=\count138
+\K@dXdY=\dimen178
+\K@dYdX=\dimen179
+\xyread@=\read2
+\xywrite@=\write5
+\csp@=\count139
+\quotPTK@=\dimen180
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks35
+\connectobjectbox@@=\box61
+ objects,
+\styletoks@=\toks36
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyall.tex"  Xy-pic option: All features v.3.8
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xycurve.tex"  Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count140
+\crvpts@=\toks37
+\splinebox@=\box62
+\splineval@=\dimen181
+\splinedepth@=\dimen182
+\splinetol@=\dimen183
+\splinelength@=\dimen184
+
+circles,
+\L@=\dimen185
+ loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyframe.tex"  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xycmtip.tex"  Xy-pic option: Computer Modern tip extension v.3.7
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xytips.tex"  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyline.tex"  Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen186
+ loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyrotate.tex"  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xycolor.tex"  Xy-pic option: Colour extension v.3.11 loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xymatrix.tex"  Xy-pic option: Matrix feature v.3.14
+\Row=\count141
+\Col=\count142
+\queue@=\toks38
+\queue@@=\toks39
+\qcount@=\count143
+\qcount@@=\count144
+\matrixsize@=\count145
+ loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xyarrow.tex"  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xygraph.tex"  Xy-pic option: Graph feature v.3.11 loaded) loaded)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf.tex"  Xy-pic option: PDF driver v.1.7
+Xy-pic pdf driver: `color' extension support
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf-co.tex" loaded) Xy-pic pdf driver: `curve' extension support
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf-cu.tex" loaded) Xy-pic pdf driver: `frame' extension support
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf-fr.tex" loaded) Xy-pic pdf driver: `line' extension support
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf-li.tex" loaded) Xy-pic pdf driver: `rotate' extension support
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/xyp
+ic/xypdf-ro.tex" loaded) loaded))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumi
+tem/enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen187
+\enit@toks=\toks40
+\enit@inbox=\box63
+\enitdp@description=\count146
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools
+/xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/f
+rontendlayer/tikz.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/b
+asiclayer/pgf.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/u
+tilities/pgfrcs.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfutil-common.tex"
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen188
+\pgfutil@tempdimb=\dimen189
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfutil-common-lists.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfutil-latex.def"
+\pgfutil@abb=\box64
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ms/ev
+eryshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/b
+asiclayer/pgfcore.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/s
+ystemlayer/pgfsys.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen190
+\pgf@y=\dimen191
+\pgf@xa=\dimen192
+\pgf@ya=\dimen193
+\pgf@xb=\dimen194
+\pgf@yb=\dimen195
+\pgf@xc=\dimen196
+\pgf@yc=\dimen197
+\w@pgf@writea=\write6
+\r@pgf@reada=\read3
+\c@pgf@counta=\count147
+\c@pgf@countb=\count148
+\c@pgf@countc=\count149
+\c@pgf@countd=\count150
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count151
+\pgfsyssoftpath@bigbuffer@items=\count152
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/systemlayer/pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmath.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathcalc.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathutil.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen198
+\pgfmath@count=\count153
+\pgfmath@box=\box65
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.basic.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.trigonometric.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.random.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.comparison.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.base.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.round.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.misc.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfunctions.integerarithmetics.code.tex")))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count154
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen199
+\pgf@picmaxx=\dimen256
+\pgf@picminy=\dimen257
+\pgf@picmaxy=\dimen258
+\pgf@pathminx=\dimen259
+\pgf@pathmaxx=\dimen260
+\pgf@pathminy=\dimen261
+\pgf@pathmaxy=\dimen262
+\pgf@xx=\dimen263
+\pgf@xy=\dimen264
+\pgf@yx=\dimen265
+\pgf@yy=\dimen266
+\pgf@zx=\dimen267
+\pgf@zy=\dimen268
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen269
+\pgf@path@lasty=\dimen270
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen271
+\pgf@shorten@start@additional=\dimen272
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count155
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen273
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen274
+\pgf@pt@y=\dimen275
+\pgf@pt@temp=\dimen276
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen277
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen278
+\pgf@sys@shading@range@num=\count156
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box69
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/basiclayer/pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/modules/pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box70
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/modules/pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/c
+ompatibility/pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen279
+\pgf@nodesepend=\dimen280
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/c
+ompatibility/pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/u
+tilities/pgffor.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/u
+tilities/pgfkeys.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgfkeys.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/m
+ath/pgfmath.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmath.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/utilities/pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/math/pgfmath.code.tex")
+\pgffor@iter=\dimen281
+\pgffor@skip=\dimen282
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count157
+\pgfplotmarksize=\dimen283
+)
+\tikz@lastx=\dimen284
+\tikz@lasty=\dimen285
+\tikz@lastxsaved=\dimen286
+\tikz@lastysaved=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count158
+\tikznumberofchildren=\count159
+\tikznumberofcurrentchild=\count160
+\tikz@fig@count=\count161
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/modules/pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count162
+\pgfmatrixcurrentcolumn=\count163
+\pgf@matrix@numberofcolumns=\count164
+)
+\tikz@expandcount=\count165
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/modules/pgfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen290
+\pgfdecoratedremainingdistance=\dimen291
+\pgfdecoratedinputsegmentcompleteddistance=\dimen292
+\pgfdecoratedinputsegmentremainingdistance=\dimen293
+\pgf@decorate@distancetomove=\dimen294
+\pgf@decorate@repeatstate=\count166
+\pgfdecorationsegmentamplitude=\dimen295
+\pgfdecorationsegmentlength=\dimen296
+)
+\tikz@lib@dec@box=\box75
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/decorations/pgflibrarydecorations.markings.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgfpl
+ots/pgfplots.sty"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotscore.code.tex"
+\t@pgfplots@toka=\toks53
+\t@pgfplots@tokb=\toks54
+\t@pgfplots@tokc=\toks55
+\pgfplots@tmpa=\dimen297
+\c@pgfplots@coordindex=\count167
+\c@pgfplots@scanlineindex=\count168
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/sys/pgfplotssysgeneric.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/libs/pgfplotslibrary.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/pgflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count169
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/oldpgfcompatib/pgfplotsoldpgfsupp_leq.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotsutil.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/liststructure/pgfplotsliststructure.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/liststructure/pgfplotsliststructureext.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/liststructure/pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count170
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/liststructure/pgfplotsmatrix.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/numtable/pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count171
+\t@pgfplotstable@a=\toks56
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/liststructure/pgfplotsdeque.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotsbinary.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotsbinary.data.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotsutil.verb.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/libs/pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count172
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotscolormap.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/util/pgfplotscolor.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotsstackedplots.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotsplothandlers.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotsmeshplothandler.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotsmeshplotimage.code.tex")))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.scaling.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotscoordprocessing.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.errorbars.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.markers.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplotsticks.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/pgfplots.paths.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex"))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex"
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count173
+\pgfplots@xmin@reg=\dimen298
+\pgfplots@xmax@reg=\dimen299
+\pgfplots@ymin@reg=\dimen300
+\pgfplots@ymax@reg=\dimen301
+\pgfplots@zmin@reg=\dimen302
+\pgfplots@zmax@reg=\dimen303
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+/libraries/pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf
+plots/libs/tikzlibrarypgfplots.polar.code.tex")
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amscl
+s/amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks57
+\thm@bodyfont=\toks58
+\thm@headfont=\toks59
+\thm@notefont=\toks60
+\thm@headpunct=\toks61
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks62
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thmtools.sty"
+Package: thmtools 2014/04/21 v66
+\thmt@toks=\toks63
+\c@thmt@dummyctr=\count174
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-patch.sty"
+Package: thm-patch 2014/04/21 v66
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/parseargs.sty"
+Package: parseargs 2014/04/21 v66
+\@parsespec=\toks64
+))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-kv.sty"
+Package: thm-kv 2014/04/21 v66
+Package thm-kv Info: Theorem names will be uppercased on input line 40.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 156.
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-autoref.sty"
+Package: thm-autoref 2014/04/21 v66
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/aliasctr.sty"
+Package: aliasctr 2014/04/21 v66
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/carli
+sle/remreset.sty"
+
+Package remreset Warning: The remreset package is obsolete:
+(remreset)                \@removefomresset is defined.
+
+)))
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-listof.sty"
+Package: thm-listof 2014/04/21 v66
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-restate.sty"
+Package: thm-restate 2014/04/21 v66
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmto
+ols/thm-amsthm.sty"
+Package: thm-amsthm 2014/04/21 v66
+\thmt@style@headstyle=\toks65
+))
+Package thmtools Info: Key `qed' (with value `$\diamondsuit $')
+(thmtools)             is not a known style key.
+(thmtools)             Will pass this to every \declaretheorem
+(thmtools)             that uses `style=examplestyle' on input line 87.
+\c@exa=\count175
+\c@obs=\count176
+\c@const=\count177
+Package thmtools Info: Key `qed' (with value `$\square $')
+(thmtools)             is not a known style key.
+(thmtools)             Will pass this to every \declaretheorem
+(thmtools)             that uses `style=solustyle' on input line 102.
+\c@solu=\count178
+\c@defi=\count179
+\c@prob=\count180
+\c@exerc=\count181
+\c@theo=\count182
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cance
+l/cancel.sty"
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/centernot.sty"
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/algor
+ithms/algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks66
+\c@algorithm=\count183
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/algor
+ithmicx/algpseudocode.sty"
+Package: algpseudocode 
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/algor
+ithmicx/algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count184
+\c@ALG@rem=\count185
+\c@ALG@nested=\count186
+\ALG@tlm=\skip65
+\ALG@thistlm=\skip66
+\c@ALG@Lnr=\count187
+\c@ALG@blocknr=\count188
+\c@ALG@storecount=\count189
+\c@ALG@tmpcounter=\count190
+\ALG@tmplength=\skip67
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (spanishAlgorithmic.tex)) (n-arios.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ (tex/Prefacio.aux)
+(tex/FundamentosTeoricos.aux) (tex/Implementacion.aux) (tex/Comparacion.aux)
+(tex/Bibliografia.aux))
+\openout1 = `n-arios.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+\AtBeginShipoutBox=\box76
+Package hyperref Info: Link coloring ON on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyper
+ref/nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/generic/obe
+rdiek/gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count191
+)
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
+ (n-arios.out) (n-arios.out)
+\@outlinefile=\write7
+\openout7 = `n-arios.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/context/bas
+e/supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen304
+\scratchbox=\box77
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen305
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks68
+)
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/oberd
+iek/grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfo
+nts/umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfo
+nts/umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 8.
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknap
+pen/ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Package xypdf Info: Line width: 0.47998pt on input line 8.
+ ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 11.
+
+<img/ucm.png, id=66, 284.5029pt x 261.6174pt>
+File: img/ucm.png Graphic file (type png)
+<use img/ucm.png>
+Package pdftex.def Info: img/ucm.png  used on input line 15.
+(pdftex.def)             Requested size: 184.92468pt x 170.04929pt.
+[1
+
+
+{/Users/Inma/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdfte
+x.map} <./img/ucm.png>] [2
+
+] (n-arios.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Package spanish Warning: Replacing `OT1/cmr/bx/sc' by 
+(spanish)                faked small caps on input line 2.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 8.
+)
+\tf@toc=\write8
+\openout8 = `n-arios.toc'.
+
+ [1
+
+]
+\openout2 = `./tex/Prefacio.aux'.
+
+ (tex/Prefacio.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [2
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+Package epstopdf Info: Source file: <img/licencia.eps>
+(epstopdf)                    date: 2018-11-07 02:08:08
+(epstopdf)                    size: 71465 bytes
+(epstopdf)             Output file: <img/licencia-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-17 16:35:48
+(epstopdf)                    size: 8179 bytes
+(epstopdf)             Command: <epstopdf --outfile=img/licencia-eps-converted-
+to.pdf img/licencia.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+<img/licencia-eps-converted-to.pdf, id=109, 121.45375pt x 43.16125pt>
+File: img/licencia-eps-converted-to.pdf Graphic file (type pdf)
+<use img/licencia-eps-converted-to.pdf>
+Package pdftex.def Info: img/licencia-eps-converted-to.pdf  used on input line 
+14.
+(pdftex.def)             Requested size: 121.45343pt x 43.16113pt.
+
+Overfull \hbox (23.68538pt too wide) in paragraph at lines 11--16
+[]\OT1/cmr/m/n/12 Esta obra esta sujeta a la licencia Reconocimiento-NoComerci
+al-CompartirIgual 4.0 Internacional
+ []
+
+)
+Overfull \hbox (3.04106pt too wide) in paragraph at lines 17--33
+[]\OT1/cmr/m/n/12 El codigo fuente de este documento, as como el codigo de 
+la implementacion de los montculos
+ []
+
+
+Overfull \hbox (4.04492pt too wide) in paragraph at lines 17--33
+\OML/cmm/m/it/12 n$\OT1/cmr/m/n/12 --arios, es de libre acceso y se encuentra a
+lojado en [][]$\OT1/cmtt/m/n/12 https : / / github . com / Inmapg / d-[]ary-[]h
+eaps$[][]
+ []
+
+[3 <./img/licencia-eps-converted-to.pdf>]
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [4
+
+
+]
+\openout2 = `./tex/FundamentosTeoricos.aux'.
+
+ (tex/FundamentosTeoricos.tex
+Cap\'{\i }tulo 1.
+(tex/arbolesGenerales.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+Package hyperref Info: bookmark level for unknown defi defaults to 0 on input l
+ine 6.
+Package hyperref Info: bookmark level for unknown obs defaults to 0 on input li
+ne 11.
+
+Overfull \hbox (1.1779pt too wide) in paragraph at lines 70--71
+[][]\OT1/cmr/bx/sc/12 Definicion 1.1.3 \OT1/cmr/m/n/12 (Nodos hermanos)\OT1/cm
+r/bx/sc/12 . []\OT1/cmr/m/n/12 Dos nodos que comparten padre se dice que son \O
+T1/cmr/m/it/12 hermanos\OT1/cmr/m/n/12 . 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 \end{defi}
+                [1
+
+
+]
+Overfull \hbox (0.33777pt too wide) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 nodo es relevante. No debe confundirse este tipo de arbol orde
+nado, basado en la estructura
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
+
+
+("/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/
+omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.224 \end{center}
+                   [2]) (tex/colas.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Overfull \hbox (2.51753pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 El comportamiento de las colas es totalmente independiente de
+l tipo de los datos almacenados
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+) (tex/monticulos.tex
+Overfull \hbox (20.30219pt too wide) in paragraph at lines 2--3
+[]\OT1/cmr/m/n/12 Es facil convencerse de que su modelo inicial corresponde a 
+la idea matematica de \OT1/cmr/m/it/12 multiconjunto[][][][][]\OT1/cmr/m/n/12 
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+[4]
+Package hyperref Info: bookmark level for unknown prop defaults to 0 on input l
+ine 29.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+))
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+ [6]
+\openout2 = `./tex/Implementacion.aux'.
+
+ (tex/Implementacion.tex
+Cap\'{\i }tulo 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Composite letter `\textasciimacron+1'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciimacron' on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Overfull \hbox (16.03381pt too wide) in paragraph at lines 5--7
+[]\OT1/cmr/m/n/12 El codigo es generico; es decir, es valido para los dos ti
+pos de montculos definidos anteriormente. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+[7
+
+
+
+]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 20.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [8])
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ [9]
+\openout2 = `./tex/Comparacion.aux'.
+
+ (tex/Comparacion.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [10
+
+
+
+]
+Cap\'{\i }tulo 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\catcode' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Composite letter `\textasciimacron+1'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciimacron' on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+) [11]
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [12
+
+
+]
+\openout2 = `./tex/Bibliografia.aux'.
+
+ (tex/Bibliografia.tex) [13
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+ (n-arios.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+ (tex/Prefacio.aux)
+(tex/FundamentosTeoricos.aux) (tex/Implementacion.aux) (tex/Comparacion.aux)
+(tex/Bibliografia.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package rerunfilecheck Info: File `n-arios.out' has not changed.
+(rerunfilecheck)             Checksum: BE28E73DFB346431F3BB09E18495B970;1046.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+ ) 
+Here is how much of TeX's memory you used:
+ 33691 strings out of 494889
+ 760585 string characters out of 3177016
+ 1018595 words of memory out of 3000000
+ 36484 multiletter control sequences out of 15000+200000
+ 31717 words of font info for 134 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 85i,11n,138p,3221b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/Inma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></Users/Inma/Library/Application Support/MiKTeX/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmbx6.pfb></Users/Inma/Library/Appli
+cation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></Users/Inma/Library/Application Support/MiKTeX/texmf
+s/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/Inma/Library/Applic
+ation Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/Users/Inma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></Users/Inma/Library/Application Support/MiKTeX/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/Inma/Library/Applicat
+ion Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
+Users/Inma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></Users/Inma/Library/Application Support/MiKTeX/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/Inma/Library/Applicatio
+n Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users
+/Inma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></Users/Inma/Library/Application Support/MiKTeX/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmsl12.pfb></Users/Inma/Library/Application Sup
+port/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/In
+ma/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></Users/Inma/Library/Application Support/MiKTeX/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmti10.pfb></Users/Inma/Library/Application Suppo
+rt/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/Inma
+/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb></Users/Inma/Library/Application Support/MiKTeX/texmfs/install/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on n-arios.pdf (19 pages, 459805 bytes).
+PDF statistics:
+ 350 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+
